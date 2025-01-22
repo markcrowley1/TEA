@@ -1,8 +1,8 @@
 # Type Everywhere All the time (T.E.A.)
 
-![Logo](./tea.webp)
+![Logo](./assets/tea.webp)
 
-<img src="path/to/your/image.png" width="400">
+<img src="./assets/tea" width="400">
 
 Chrome browser extension to turn any webpage into a typing practice website.
 
