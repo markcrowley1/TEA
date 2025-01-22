@@ -1,8 +1,8 @@
 # Type Everywhere All the time (T.E.A.)
 
-<div style="text-align: center;">
+<center>
   <img src="./assets/tea.webp" width="400">
-</div>
+</center>
 
 Chrome browser extension to turn any webpage into a typing practice website.
 
