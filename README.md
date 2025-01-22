@@ -2,6 +2,8 @@
 
 ![Logo](./tea.webp)
 
+<img src="path/to/your/image.png" width="400">
+
 Chrome browser extension to turn any webpage into a typing practice website.
 
 ### Intended Features
