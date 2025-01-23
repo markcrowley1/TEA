@@ -1,0 +1,33 @@
+{
+    "manifest_version": 3,
+    "name": "TEA",
+    "version": "1.0",
+    "description": "Chrome browser extension to turn any webpage into typing practice.",
+    "permissions": ["activeTab"],
+    
+    "background": {
+      "service_worker": "background.js"
+    },
+    
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "assets/tea.webp",
+        "48": "assets/tea.webp",
+        "128": "assets/tea.webp"
+      }
+    },
+    
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["content.js"]
+      }
+    ],
+    
+    "icons": {
+      "16": "assets/tea.webp",
+      "48": "assets/tea.webp",
+      "128": "assets/tea.webp"
+    }
+  }
